@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.photolist{
+    width: 100%;
+    padding-top: .9rem;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*flex-wrap: nowrap | wrap | wrap-reverse;*/
+    justify-content: center;
+    align-items: center;
+}
+.photolist li{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+    width: 50%;
+    text-align: center;
+    margin-bottom: .2rem;
+    flex-grow: 1;
+}
+.photolist li img{
+	width: 2.32rem;
+    height: 2rem;
+    border: 1px solid #00C8FF;
+}
+
+.photolist li h3{
+	font-size: .26rem;
+	font-weight: bold;
+	color: #FFF;
+	line-height: .4rem;
+	height: .4rem;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+.photolist li p{
+    font-size: .22rem;
+    font-weight: normal;
+    color: #FFF;
+    line-height: .3rem;
+    height: .7rem;
+    width: 94%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*嘉宾页*/
+.active .vip1{
+    -webkit-animation: slideToSmall 0.5s ease-out .5s both;
+    animation: slideToSmall 0.5s ease-out .5s both;
+}
+.active .vip2{
+    -webkit-animation: slideToSmall 0.5s ease-out .7s both;
+    animation: slideToSmall 0.5s ease-out .7s both;
+}
+.active .vip3{
+    -webkit-animation: slideToSmall 0.5s ease-out .9s both;
+    animation: slideToSmall 0.5s ease-out .9s both;
+}
+.active .vip4{
+    -webkit-animation: slideToSmall 0.5s ease-out 1.1s both;
+    animation: slideToSmall 0.5s ease-out 1.1s both;
+}
+.active .vip5{
+    -webkit-animation: slideToSmall 0.5s ease-out 1.3s both;
+    animation: slideToSmall 0.5s ease-out 1.3s both;
+}
+.active .vip6{
+    -webkit-animation: slideToSmall 0.5s ease-out 1.5s both;
+    animation: slideToSmall 0.5s ease-out 1.5s both;
+}
